@@ -1,0 +1,177 @@
+*{
+    margin: 0 auto;
+}header{
+    border: solid 2px green;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}.logo{
+    border: solid 2px green;
+    width: 8%;
+    height: 70px;
+}.navegacao{
+    border: solid 2px green;
+    height: 35px;
+    width: 35%;
+}.pesquisa{
+    border: solid 2px green;
+    height: 40px;
+    width: 20%;
+}.login{
+    border: solid 2px green;
+    height: 50px;
+    width: 10%;
+}main{
+    border: solid 2px green;
+    margin-top: 20px;
+    height: 350px;
+}.fretegratis{
+    border: solid 2px green;
+    height: 90px;
+    margin-top: 60px;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}.frete{
+    border: solid 2px green;
+    height: 70px;
+    width: 70px;
+}.troca{
+    border: solid 2px green;
+    height: 70px;
+    width: 70px;
+}.acompanhe{
+    border: solid 2px green;
+    height: 70px;
+    width: 70px;
+}.prod-linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items:first baseline;
+    text-align: center;
+    /* flex-wrap: wrap; */
+}.div-prod1{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod2{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod3{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod4{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.prod-linha2{
+    display: flex;
+    justify-content: space-around;
+    align-items:first baseline;
+    text-align: center;
+}.div-prod5{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod6{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod7{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod8{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.prod-linha3{
+    display: flex;
+    justify-content: space-around;
+    align-items:first baseline;
+    text-align: center;
+}.div-prod9{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod10{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod11{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod12{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.prod-linha4{
+    display: flex;
+    justify-content: space-around;
+    align-items:first baseline;
+    text-align: center;
+}.div-prod13{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod14{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod15{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}.div-prod16{
+    margin-top: 70px;
+    border: solid 2px green;
+    width: 300px;
+    height: 350px;
+}footer{
+    margin-top: 20px;
+    border: solid 2px green;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.explore{
+    border: solid 2px green;
+    width: 200px;
+    height: 249px;
+}.ajuda{
+    border: solid 2px green;
+    width: 200px;
+    height: 249px;
+}.politicas{
+    border: solid 2px green;
+    width: 200px;
+    height: 249px;
+}.redes{
+    border: solid 2px green;
+    width: 200px;
+    height: 249px;
+}.direitos{
+    border: solid 2px green;
+    width: 200px;
+    height: 249px;
+}
