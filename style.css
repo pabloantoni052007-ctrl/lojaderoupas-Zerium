@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    background-color: #f8f5e6;
 }header{
     border: solid 2px green;
     height: 100px;
@@ -8,21 +9,64 @@
     align-items: center;
 }.logo{
     border: solid 2px green;
-    width: 8%;
+    width: 70px;
     height: 70px;
 }.navegacao{
     border: solid 2px green;
     height: 35px;
     width: 35%;
+    display: flex;
+}.listas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    width: 100%;
 }.pesquisa{
     border: solid 2px green;
     height: 40px;
     width: 20%;
-}.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.pesq1{
+    width: 100%;
+    border: solid 2px #bfa240;
+    border-radius: 10px;
+}
+
+.login{
     border: solid 2px green;
     height: 50px;
     width: 10%;
-}main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}.perfil{
+    width: 20%;
+    height: 25px;
+    border: solid 2px green;
+}
+.iconperfil{
+    fill:#b69014;
+    height: 25px;
+    width: 100%;
+}
+.shoppingCart{
+    fill:#b69014;
+    height: 25px;
+    width: 100%;
+}
+.carrinho{
+    width: 20%;
+    height: 25px;
+    border: solid 2px green;
+}
+
+
+main{
     border: solid 2px green;
     margin-top: 20px;
     height: 350px;
