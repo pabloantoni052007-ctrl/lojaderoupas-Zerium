@@ -36,7 +36,6 @@
     border: solid 2px #bfa240;
     border-radius: 10px;
 }
-
 .login{
     /* border: solid 2px green; */
     height: 50px;
@@ -64,15 +63,13 @@
     height: 25px;
     /* border: solid 2px green; */
 }
-
-
 main{
     border: solid 2px green;
     margin-top: 20px;
     height: 450px;
     width: 80%;
 }.fretegratis{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     height: 200px;
     margin-top: 60px;
     width: 70%;
@@ -80,7 +77,7 @@ main{
     justify-content: space-around;
     display: flex;
 }.escritaFretes{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     height: 30px;
     width: 50%;
     align-items:first baseline;
@@ -88,7 +85,7 @@ main{
     text-align: center;
     display: flex;
 }.frete{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     height: 90px;
     width: 200px;
     display: flex;
@@ -97,7 +94,7 @@ main{
     text-align: center;
     flex-wrap: wrap;
 }.troca{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     height: 70px;
     width: 400px;
     display: flex;
@@ -106,7 +103,7 @@ main{
     text-align: center;
     flex-wrap: wrap;
 }.acompanhe{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     height: 70px;
     width: 200px;
     display: flex;
@@ -131,18 +128,31 @@ main{
 }.div-descprod1{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
-}.div-imgprod1{
+    /* border: solid 2px green; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}.div-comprarprod{
+    width: 80%;
+    height: 30px;
+    background-color: #3f8a5d;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.div-imgprod1{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
-    background-image: url("imagens/imgprod1.jpg");
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/0442634A-4539-481D-970F-EAB607A89E1F.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
-
 .div-prod2{
     margin-top: 70px;
     border: solid 2px green;
@@ -154,11 +164,16 @@ main{
 }.div-descprod2{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod2{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_0975.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0.1px;
 }
 .div-prod3{
     margin-top: 70px;
@@ -169,11 +184,16 @@ main{
 }.div-descprod3{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod3{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1401.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0.1px;height: 70%;
 }
 .div-prod4{
     margin-top: 70px;
@@ -184,11 +204,17 @@ main{
 }.div-descprod4{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
-}.div-imgprod4{
+    /* border: solid 2px green; */
+}
+
+.div-imgprod4{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1345.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 
 .prod-linha2{
@@ -205,8 +231,20 @@ main{
 }.div-descprod5{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    
 }.div-imgprod5{
+    height: 70%;
+    width: 100%;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1403.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: 0,1px;
+}
+
+.div-imgprod5{
     height: 70%;
     width: 100%;
     border: solid 2px green;
@@ -220,11 +258,15 @@ main{
 }.div-descprod6{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod6{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/11D0D4D5-049D-47AA-991B-4EF7CF9C44FF.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 .div-prod7{
     margin-top: 70px;
@@ -235,11 +277,16 @@ main{
 }.div-descprod7{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod7{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1404.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 0,1px;
 }
 .div-prod8{
     margin-top: 70px;
@@ -250,15 +297,17 @@ main{
 }.div-descprod8{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod8{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1405.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 0,1px;
 }
-
-
-
 .prod-linha3{
     display: flex;
     justify-content: space-around;
@@ -273,11 +322,16 @@ main{
 }.div-descprod9{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod9{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1406.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 0,1px;
 }
 .div-prod10{
     margin-top: 70px;
@@ -288,11 +342,16 @@ main{
 }.div-descprod10{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod10{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1407.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 0,1px;
 }
 .div-prod11{
     margin-top: 70px;
@@ -303,11 +362,16 @@ main{
 }.div-descprod11{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod11{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1408.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 0,1px;
 }
 .div-prod12{
     margin-top: 70px;
@@ -318,13 +382,17 @@ main{
 }.div-descprod12{
     height: 30%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
 }.div-imgprod12{
     height: 70%;
     width: 100%;
-    border: solid 2px green;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/IMG_1409.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 0,1px;
 }
-
 .prod-linha4{
     display: flex;
     justify-content: space-around;
@@ -390,45 +458,44 @@ main{
     width: 100%;
     border: solid 2px green;
 }
-
-
-
-
-
-
 footer{
     margin-top: 20px;
-    border: solid 2px green;
-    height: 400px;
+    /* border: solid 2px green; */
+    height: 350px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #3f8a5d;
 }.explore{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     width: 200px;
     height: 350px;
+    background-color: #3f8a5d;
 }.ajuda{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     width: 200px;
     height: 249px;
+    background-color: #3f8a5d;
 }.politicas{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     width: 200px;
     height: 249px;
+    background-color: #3f8a5d;
 }.redes{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     width: 200px;
     height: 249px;
+    background-color: #3f8a5d;
 }.direitos{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     width: 200px;
     height: 249px;
     text-align: justify;
+    background-color: #3f8a5d;
 }.escritaFreteRapido{
     /* border: solid 2px green; */
     height: 20px;
     width: 100px;
-    margin-left: 110px;
     text-align: center;
 }.escritaTroca{
     /* border: solid 2px green; */
@@ -436,12 +503,10 @@ footer{
     width: 200px;
     margin-left: 110px;
 }.escritaAcompanhe{
-    border: solid 2px green;
+    /* border: solid 2px green; */
     height: 100%px;
     width: 100%;
 }
-
-
 .iconfreteRapido{
     fill:#3f8a5d;
     height: 60px;
@@ -455,4 +520,3 @@ footer{
     height: 60px;
     width: 100%;
 }
-
