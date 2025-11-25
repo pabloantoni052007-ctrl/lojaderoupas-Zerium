@@ -1,12 +1,7 @@
 *{
     margin: 0 auto;
-}
-
-body{
-     background-color: #f8f5e6;
-}
-
-header{
+    background-color: #f8f5e6;
+}header{
     border: solid 2px green;
     height: 100px;
     display: flex;
@@ -36,7 +31,6 @@ header{
 .listas a:hover{
     color: #bfa240;
 }
-
 
 
 
@@ -138,19 +132,22 @@ main{
     border: solid 2px green;
     width: 300px;
     height: 350px;
-    flex-wrap: wrap;
-    align-items: end;
     border-radius: 10px;
 }.div-descprod1{
     height: 30%;
     width: 100%;
     /* border: solid 2px green; */
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}.div-comprarprod{
+}.div-imgprod1{
+    height: 70%;
+    width: 100%;
+    /* border: solid 2px green; */
+    border-radius: 5px;
+    background-image: url("imagens/11D0D4D5-049D-47AA-991B-4EF7CF9C44FF.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.div-comprarprod{
     width: 80%;
     height: 30px;
     background-color: #3f8a5d;
@@ -160,22 +157,12 @@ main{
     align-items: center;
     border-radius: 5px;
 }
-.div-imgprod1{
-    height: 70%;
-    width: 100%;
-    /* border: solid 2px green; */
-    border-radius: 5px;
-    background-image: url("imagens/0442634A-4539-481D-970F-EAB607A89E1F.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .div-prod2{
     margin-top: 70px;
     border: solid 2px green;
     width: 300px;
     height: 350px;
-    flex-wrap: wrap;
-    align-items: end;
     border-radius: 10px;
 }.div-descprod2{
     height: 30%;
@@ -186,10 +173,10 @@ main{
     width: 100%;
     /* border: solid 2px green; */
     border-radius: 5px;
-    background-image: url("imagens/IMG_0975.jpg");
+    background-image: url("imagens/IMG_1407.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0.1px;
+    background-repeat: no-repeat; 
+    background-position: 0,1px;
 }
 .div-prod3{
     margin-top: 70px;
@@ -206,12 +193,12 @@ main{
     width: 100%;
     /* border: solid 2px green; */
     border-radius: 5px;
-    background-image: url("imagens/IMG_1401.jpg");
+    background-image: url("imagens/IMG_1408.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0.1px;height: 70%;
+    background-repeat: no-repeat; 
+    background-position: 0,1px;
 }
-.div-prod4{
+/* .div-prod4{
     margin-top: 70px;
     border: solid 2px green;
     width: 300px;
@@ -220,13 +207,12 @@ main{
 }.div-descprod4{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
 }
 
 .div-imgprod4{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/IMG_1345.jpg");
     background-size: cover;
@@ -247,12 +233,12 @@ main{
 }.div-descprod5{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     
 }.div-imgprod5{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/IMG_1403.jpg");
     background-size: cover;
@@ -274,11 +260,11 @@ main{
 }.div-descprod6{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod6{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/11D0D4D5-049D-47AA-991B-4EF7CF9C44FF.jpg");
     background-size: cover;
@@ -293,11 +279,11 @@ main{
 }.div-descprod7{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod7{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/IMG_1404.jpg");
     background-size: cover;
@@ -313,11 +299,11 @@ main{
 }.div-descprod8{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod8{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/IMG_1405.jpg");
     background-size: cover;
@@ -338,11 +324,11 @@ main{
 }.div-descprod9{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod9{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/IMG_1406.jpg");
     background-size: cover;
@@ -358,11 +344,11 @@ main{
 }.div-descprod10{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod10{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/IMG_1407.jpg");
     background-size: cover;
@@ -378,11 +364,11 @@ main{
 }.div-descprod11{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod11{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/IMG_1408.jpg");
     background-size: cover;
@@ -398,11 +384,11 @@ main{
 }.div-descprod12{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod12{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/IMG_1409.jpg");
     background-size: cover;
@@ -423,11 +409,11 @@ main{
 }.div-descprod13{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod13{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/8c39a5f0-a9bc-44fc-a791-4dfbf42ed21e.JPEG");
     background-size: cover;
@@ -443,11 +429,11 @@ main{
 }.div-descprod14{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod14{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/856ea9cf-04db-416c-b2a3-922179d5017a.JPEG");
     background-size: cover;
@@ -463,11 +449,11 @@ main{
 }.div-descprod15{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
+    
 }.div-imgprod15{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
+    
     border-radius: 5px;
     background-image: url("imagens/cb3e5877-11bb-43d6-b70e-776209d7cf7b.JPEG");
     background-size: cover;
@@ -488,7 +474,7 @@ main{
     height: 70%;
     width: 100%;
     border: solid 2px green;
-}
+} */
 footer{
     margin-top: 20px;
     /* border: solid 2px green; */
@@ -497,38 +483,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #3f8a5d;
-}
-/* Wallis */
-
-.col-foot{
-    width: 17%;
-    height: 300px;
-    border: solid 1px white;
-    background:#3f8a5d;
-}
-
-.title-foot{
-    padding: 10px;
-    text-align: center;
-}
-
-.itens-foot{
-    padding: 10px;
-}
-
-.title-foot.final{
-    color: white;
-}
-
-
-
-
-
-
-
-
-
-.explore{
+}.explore{
     /* border: solid 2px green; */
     width: 200px;
     height: 350px;
@@ -582,4 +537,3 @@ footer{
     height: 60px;
     width: 100%;
 }
-
