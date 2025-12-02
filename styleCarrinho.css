@@ -70,7 +70,7 @@ header{
     width: 100%;
 }
 .shoppingCart{
-    fill:#b69014;
+    fill:#095d40;
     height: 25px;
     width: 100%;
 }
@@ -79,13 +79,38 @@ header{
     height: 25px;
     /* border: solid 2px green; */
 }
-main{
+
+.infoPedido{
+    width: 100%;
+    height: 500px;
+    border: solid 2px green;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.div-produtoCarrinho{
+    margin-top: 30px;
+    width: 40%;
+    height: 100px;
+    border: solid 2px green;
+}
+.div-resumoPedido{
+    margin-top: 30px;
+    width: 30%;
+    height: 300px;
+    border: solid 2px green;
+}
+
+
+
+
+/* main{
     border: solid 2px green;
     margin-top: 20px;
     height: 450px;
     width: 80%;
 }.fretegratis{
-    /* border: solid 2px green; */
     height: 200px;
     margin-top: 60px;
     width: 70%;
@@ -93,7 +118,6 @@ main{
     justify-content: space-around;
     display: flex;
 }.escritaFretes{
-    /* border: solid 2px green; */
     height: 30px;
     width: 50%;
     align-items:first baseline;
@@ -101,7 +125,6 @@ main{
     text-align: center;
     display: flex;
 }.frete{
-    /* border: solid 2px green; */
     height: 90px;
     width: 200px;
     display: flex;
@@ -110,7 +133,6 @@ main{
     text-align: center;
     flex-wrap: wrap;
 }.troca{
-    /* border: solid 2px green; */
     height: 70px;
     width: 400px;
     display: flex;
@@ -119,7 +141,6 @@ main{
     text-align: center;
     flex-wrap: wrap;
 }.acompanhe{
-    /* border: solid 2px green; */
     height: 70px;
     width: 200px;
     display: flex;
@@ -132,7 +153,6 @@ main{
     justify-content: space-around;
     align-items:first baseline;
     text-align: center;
-    /* flex-wrap: wrap; */
 }.div-prod1{
     margin-top: 70px;
     border: solid 2px green;
@@ -144,7 +164,6 @@ main{
 }.div-descprod1{
     height: 30%;
     width: 100%;
-    /* border: solid 2px green; */
     display: flex;
     text-align: center;
     align-items: center;
@@ -163,12 +182,11 @@ main{
 .div-imgprod1{
     height: 70%;
     width: 100%;
-    /* border: solid 2px green; */
     border-radius: 5px;
     background-image: url("imagens/0442634A-4539-481D-970F-EAB607A89E1F.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 /* .div-prod2{
     margin-top: 70px;
     border: solid 2px green;

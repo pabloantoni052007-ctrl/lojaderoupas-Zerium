@@ -492,7 +492,7 @@ main{
 footer{
     margin-top: 20px;
     /* border: solid 2px green; */
-    height: 350px;
+    height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -502,18 +502,31 @@ footer{
 
 .col-foot{
     width: 17%;
-    height: 300px;
-    border: solid 1px white;
+    height: 100%;
     background:#3f8a5d;
 }
 
 .title-foot{
     padding: 10px;
     text-align: center;
+    color: white;
 }
 
 .itens-foot{
     padding: 10px;
+    padding-inline-start: 0px;
+    color: white;
+}
+
+.itens-foot a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.listas-foot{
+    list-style-type: none;
+    color: white;
 }
 
 .title-foot.final{
@@ -521,40 +534,23 @@ footer{
 }
 
 
+/* .listas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    width: 100%;
+}.listas a{
+    text-decoration: none;
+    color: black;
+}
+.listas a:hover{
+    color: #bfa240;
+} */
 
-
-
-
-
-
-
-.explore{
-    /* border: solid 2px green; */
-    width: 200px;
-    height: 350px;
-    background-color: #3f8a5d;
-}.ajuda{
-    /* border: solid 2px green; */
-    width: 200px;
-    height: 249px;
-    background-color: #3f8a5d;
-}.politicas{
-    /* border: solid 2px green; */
-    width: 200px;
-    height: 249px;
-    background-color: #3f8a5d;
-}.redes{
-    /* border: solid 2px green; */
-    width: 200px;
-    height: 249px;
-    background-color: #3f8a5d;
-}.direitos{
-    /* border: solid 2px green; */
-    width: 200px;
-    height: 249px;
-    text-align: justify;
-    background-color: #3f8a5d;
-}.escritaFreteRapido{
+.escritaFreteRapido{
     /* border: solid 2px green; */
     height: 20px;
     width: 100px;
