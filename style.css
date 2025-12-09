@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0 auto;
 }
@@ -79,12 +81,22 @@ header{
     height: 25px;
     /* border: solid 2px green; */
 }
-main{
+.principal{
     border: solid 2px green;
     margin-top: 20px;
-    height: 450px;
-    width: 80%;
-}.fretegratis{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}.carrossel{
+    border: solid 2px green;
+    height: 400px;
+    width: 50%;
+}
+
+
+.fretegratis{
     /* border: solid 2px green; */
     height: 200px;
     margin-top: 60px;
