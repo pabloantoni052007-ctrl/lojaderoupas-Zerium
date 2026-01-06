@@ -35,6 +35,32 @@ button.ctrl{
     cursor: pointer;
     font-size: 18px;
     border-radius: 6px;
-    box-shadow: 0 2px 6px #a7a1a1;
+    box-shadow: 0 2px 6px rgba((0,0,0,0.15));
     user-select: none;
+}
+
+#prev { left: 10px; }
+#next { right: 10px; }
+
+.dots{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.dot.active{
+    opacity: 1;
+    transform: scale(1.15);
 }
